@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background: #f4ede4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.header {
+  background: #345566;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin-top: 8px;
+}
+
+.coffee-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  transition: 0.2s;
+}
+
+.coffee-card:hover {
+  transform: translateY(-2px);
+}
+
+.coffee-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.coffee-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.vote-btn {
+  background: #1e88e5;
+  color: white;
+
+  border: none;
+
+  width: 55px;
+  height: 55px;
+
+  border-radius: 12px;
+
+  font-size: 28px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.vote-btn:hover {
+  transform: scale(1.08);
+}
+
+.vote-btn:active {
+  transform: scale(0.95);
+}
